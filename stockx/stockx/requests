@@ -1,0 +1,110 @@
+Product URL: https://stockx.com/api/products/air-jordan-1-mid-royal-2020-ps?includes=market,360&currency=GBP&country=GB
+
+fetch("https://stockx.com/api/products/air-jordan-1-mid-royal-2020-ps?includes=market,360&currency=GBP&country=GB", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9,el;q=0.8,es;q=0.7",
+    "appos": "web",
+    "appversion": "0.1",
+    "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik5USkNNVVEyUmpBd1JUQXdORFk0TURRelF6SkZRelV4TWpneU5qSTNNRFJGTkRZME0wSTNSQSJ9.eyJodHRwczovL3N0b2NreC5jb20vY3VzdG9tZXJfdXVpZCI6Ijk3ZmVhOWJmLTgyNGYtMTFlOS04ODgwLTEyZGViOTA5ZTk3YyIsImlzcyI6Imh0dHBzOi8vYWNjb3VudHMuc3RvY2t4LmNvbS8iLCJzdWIiOiJhdXRoMHw5N2ZlYTliZi04MjRmLTExZTktODg4MC0xMmRlYjkwOWU5N2MiLCJhdWQiOiJnYXRld2F5LnN0b2NreC5jb20iLCJpYXQiOjE1OTcxMzcyMzEsImV4cCI6MTU5NzE4MDQzMSwiYXpwIjoiT1Z4cnQ0VkpxVHg3TElVS2Q2NjFXMER1Vk1wY0ZCeUQiLCJzY29wZSI6Im9mZmxpbmVfYWNjZXNzIn0.MacnSXajE-yx_GZ_2QyFUGM1AlOkgagONIGegNX6kBn-rkz0ZQyPzT4rWX3iJlZcfqfn7EOBtMMZbYYcvW7ATRcaxVeQRdk-jt6ynDMq53R9mFQqU7g4pWuQXCinRyeyQJ_mbudqzZHaOYGIwWDyWWiFMQ-FUuGvHAkJq_kbwe-K7DhKp3OJxEyVr0g3AVYpS4BHuhJnFscbTi8VnMsT6Jk17cF16jVAofC5uNlIQvNVvc1pI_5SOSCgaL8ePmEzeqI9CAP2EnkrbNC4uw-Kti6tkdc3E99Ixuam4RlsF8hfMpqN602yByzOsWdVfus0fO47dNZ3rW2IJAjd820jrQ",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-requested-with": "XMLHttpRequest"
+  },
+  "referrer": "https://stockx.com/air-jordan-1-mid-royal-2020-ps",
+  "referrerPolicy": "same-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+});
+
+
+Paged sneakers:
+https://stockx.com/sneakers?page=2
+
+https://stockx.com/api/browse?productCategory=sneakers&currency=GBP
+
+https://stockx.com/api/products/fd191e5f-0817-4b69-9aba-2246aa0b54ac/activity?state=480&currency=GBP&limit=10&page=1&sort=createdAt&order=DESC&country=GB
+
+https://stockx.com/api/products/fd191e5f-0817-4b69-9aba-2246aa0b54ac/chart?start_date=all&end_date=2020-08-11&intervals=100&format=highstock&currency=GBP&country=GB
+
+https://stockx.com/api/content-stack/product_page_blurbs?include=ask&include=ask.placed.share&include=ask.placed.reminder&include=ask.matched.share&include=ask.matched.reminder&include=ask.payment_failed.reminder&include=ask.authorization_failed.reminder&include=ask.additional_days_to_ship_alert&include=ask.how_it_works&include=ask.how_it_works.penalty&include=ask.condition_tutorial&include=bid&include=bid.placed.share&include=bid.placed.reminder&include=bid.matched.share&include=bid.matched.reminder&include=bid.payment_failed.reminder&include=bid.authorization_failed.reminder&include=bid.additional_days_to_ship_alert&include=bid.how_it_
+
+M 0 48.5 
+L 7.4848484848485 48.5 
+L 14.969696969697 57.876666666666665 
+L 22.454545454545 70.48666666666668 
+L 29.939393939394 72.75000000000001 
+L 37.424242424242 72.75000000000001 
+L 44.909090909091 72.75000000000001 L 52.393939393939 82.77333333333334 L 59.878787878788 82.77333333333334 L 67.363636363636 82.77333333333334 L 74.848484848485 82.77333333333334 L 82.333333333333 82.77333333333334 L 89.818181818182 81.80333333333334 L 97.30303030303 85.68333333333334 L 104.78787878788 71.45666666666668 L 112.27272727273 71.45666666666668 L 119.75757575758 71.45666666666668 L 127.24242424242 71.45666666666668 L 134.72727272727 71.45666666666668 L 142.21212121212 78.89333333333335 L 149.69696969697 90.53333333333335 L 157.18181818182 107.34666666666668 L 164.66666666667 107.34666666666668 L 172.15151515152 107.34666666666668 L 179.63636363636 107.34666666666668 L 187.12121212121 107.34666666666668 L 194.60606060606 95.70666666666668 L 202.09090909091 95.70666666666668 L 209.57575757576 95.70666666666668 L 217.06060606061 95.70666666666668 L 224.54545454545 95.70666666666668 L 232.0303030303 95.06 L 239.51515151515 99.91000000000001 L 247 99.91000000000001 L 254.48484848485 82.77333333333334 L 261.9696969697 99.91000000000001 L 269.45454545455 99.91000000000001 L 276.93939393939 99.91000000000001 L 284.42424242424 99.91000000000001 L 291.90909090909 88.91666666666667 L 299.39393939394 101.85000000000001 L 306.87878787879 101.85000000000001 L 314.36363636364 101.85000000000001 L 321.84848484848 101.85000000000001 L 329.33333333333 101.85000000000001 L 336.81818181818 104.43666666666667 L 344.30303030303 95.06 L 351.78787878788 99.91000000000001 L 359.27272727273 102.49666666666667 L 366.75757575758 98.94000000000001 L 374.24242424242 100.23333333333333 L 381.72727272727 105.08333333333334 L 389.21212121212 100.88000000000001 L 396.69696969697 107.99333333333334 L 404.18181818182 111.22666666666667 L 411.66666666667 112.84333333333333 L 419.15151515152 111.87333333333333 L 426.63636363636 115.43 L 434.12121212121 112.84333333333333 L 441.60606060606 115.10666666666667 L 449.09090909091 113.49000000000001 L 456.57575757576 112.19666666666667 L 464.06060606061 108.31666666666668 L 471.54545454545 108.31666666666668 L 479.0303030303 109.28666666666668 L 486.51515151515 101.52666666666667 L 494 104.76 L 501.48484848485 106.37666666666668 L 508.9696969697 106.05333333333334 L 516.45454545455 103.14333333333335 L 523.93939393939 103.79 L 531.42424242424 104.76 L 538.90909090909 102.82000000000001 L 546.39393939394 106.05333333333334 L 553.87878787879 107.02333333333334 L 561.36363636364 106.05333333333334 L 568.84848484848 103.79 L 576.33333333333 107.02333333333334 L 583.81818181818 107.02333333333334 L 591.30303030303 106.05333333333334 L 598.78787878788 105.08333333333334 L 606.27272727273 103.79 L 613.75757575758 103.79 L 621.24242424242 105.08333333333334 L 628.72727272727 104.43666666666667 L 636.21212121212 105.08333333333334 L 643.69696969697 107.02333333333334 L 651.18181818182 105.73 L 658.66666666667 105.73 L 666.15151515152 106.37666666666668 L 673.63636363636 106.05333333333334 L 681.12121212121 107.34666666666668 L 688.60606060606 107.34666666666668 L 696.09090909091 107.99333333333334 L 703.57575757576 110.25666666666667 L 711.06060606061 108.31666666666668 L 718.54545454545 109.28666666666668 L 726.0303030303 109.93333333333334 L 733.51515151515 109.61000000000001 L 741 110.58000000000001"
+
+{"title":{"text":"Average price over time"},"series":[{"data":[[1565557667000,0],[1565873891000,0],[1566190115000,0],[1566506339000,0],[1566822563000,0],[1567138787000,0],[1567455011000,0],[1567771235000,0],[1568087459000,0],[1568403683000,0],[1568719907000,0],[1569036131000,0],[1569352355000,0],[1569668579000,0],[1569984803000,0],[1570301027000,0],[1570617251000,0],[1570933475000,0],[1571249699000,0],[1571565923000,0],[1571882147000,0],[1572198371000,0],[1572514595000,0],[1572830819000,0],[1573147043000,0],[1573463267000,0],[1573779491000,0],[1574095715000,0],[1574411939000,0],[1574728163000,0],[1575044387000,0],[1575360611000,0],[1575676835000,0],[1575993059000,0],[1576309283000,0],[1576625507000,0],[1576941731000,0],[1577257955000,0],[1577574179000,0],[1577890403000,0],[1578206627000,0],[1578522851000,0],[1578839075000,0],[1579155299000,0],[1579471523000,0],[1579787747000,0],[1580103971000,0],[1580420195000,0],[1580736419000,0],[1581052643000,0],[1581368867000,0],[1581685091000,0],[1582001315000,0],[1582317539000,0],[1582633763000,0],[1582949987000,0],[1583266211000,0],[1583582435000,0],[1583898659000,0],[1584214883000,0],[1584531107000,0],[1584847331000,0],[1585163555000,0],[1585479779000,0],[1585796003000,0],[1586112227000,0],[1586428451000,0],[1586744675000,0],[1587060899000,0],[1587377123000,0],[1587693347000,0],[1588009571000,0],[1588325795000,0],[1588642019000,0],[1588958243000,0],[1589274467000,0],[1589590691000,0],[1589906915000,0],[1590223139000,0],[1590539363000,0],[1590855587000,0],[1591171811000,0],[1591488035000,0],[1591804259000,0],[1592120483000,0],[1592436707000,0],[1592752931000,0],[1593069155000,0],[1593385379000,0],[1593701603000,0],[1594017827000,0],[1594334051000,0],[1594650275000,0],[1594966499000,0],[1595282723000,0],[1595598947000,417],[1595915171000,324],[1596231395000,291],[1596547619000,269],[1596863843000,267]]}],"xAxis":{"type":"datetime"}}
+
+
+Element selectors:
+view all sales button
+#root > div.wrapper.Appstyles__AppContainer-sc-1lpzmpo-0.cIfAGK > div.page-container.Appstyles__BannerPadding-sc-1lpzmpo-1.iabkys > div.product-view > div.product-market-history-wrap > div > div > div > div.col-md-8.product-history > div > div:nth-child(1) > div.market-history-sales > a
+
+Button fires this request:
+fetch("https://stockx.com/api/products/c6eb6350-41cd-4323-b8ff-eb32898d1945/chart?start_date=all&end_date=2020-08-11&intervals=100&format=highstock&currency=GBP&country=GB", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9,el;q=0.8,es;q=0.7",
+    "appos": "web",
+    "appversion": "0.1",
+    "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik5USkNNVVEyUmpBd1JUQXdORFk0TURRelF6SkZRelV4TWpneU5qSTNNRFJGTkRZME0wSTNSQSJ9.eyJodHRwczovL3N0b2NreC5jb20vY3VzdG9tZXJfdXVpZCI6Ijk3ZmVhOWJmLTgyNGYtMTFlOS04ODgwLTEyZGViOTA5ZTk3YyIsImlzcyI6Imh0dHBzOi8vYWNjb3VudHMuc3RvY2t4LmNvbS8iLCJzdWIiOiJhdXRoMHw5N2ZlYTliZi04MjRmLTExZTktODg4MC0xMmRlYjkwOWU5N2MiLCJhdWQiOiJnYXRld2F5LnN0b2NreC5jb20iLCJpYXQiOjE1OTcxMzcyMzEsImV4cCI6MTU5NzE4MDQzMSwiYXpwIjoiT1Z4cnQ0VkpxVHg3TElVS2Q2NjFXMER1Vk1wY0ZCeUQiLCJzY29wZSI6Im9mZmxpbmVfYWNjZXNzIn0.MacnSXajE-yx_GZ_2QyFUGM1AlOkgagONIGegNX6kBn-rkz0ZQyPzT4rWX3iJlZcfqfn7EOBtMMZbYYcvW7ATRcaxVeQRdk-jt6ynDMq53R9mFQqU7g4pWuQXCinRyeyQJ_mbudqzZHaOYGIwWDyWWiFMQ-FUuGvHAkJq_kbwe-K7DhKp3OJxEyVr0g3AVYpS4BHuhJnFscbTi8VnMsT6Jk17cF16jVAofC5uNlIQvNVvc1pI_5SOSCgaL8ePmEzeqI9CAP2EnkrbNC4uw-Kti6tkdc3E99Ixuam4RlsF8hfMpqN602yByzOsWdVfus0fO47dNZ3rW2IJAjd820jrQ",
+    "if-none-match": "W/\"82e-7Fl14k9niOgd0f4GSJsGTycZTK0\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-requested-with": "XMLHttpRequest"
+  },
+  "referrer": "https://stockx.com/air-jordan-1-retro-high-satin-snake-chicago-w",
+  "referrerPolicy": "same-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+});
+
+"Load more" button 
+body > div:nth-child(46) > div > div > div > div.modal-body > div > button
+
+fires this request:
+
+[] Change limit
+
+fetch("https://stockx.com/api/products/c6eb6350-41cd-4323-b8ff-eb32898d1945/activity?state=480&currency=GBP&limit=10&page=2&sort=createdAt&order=DESC&country=GB", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-US,en;q=0.9,el;q=0.8,es;q=0.7",
+    "appos": "web",
+    "appversion": "0.1",
+    "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik5USkNNVVEyUmpBd1JUQXdORFk0TURRelF6SkZRelV4TWpneU5qSTNNRFJGTkRZME0wSTNSQSJ9.eyJodHRwczovL3N0b2NreC5jb20vY3VzdG9tZXJfdXVpZCI6Ijk3ZmVhOWJmLTgyNGYtMTFlOS04ODgwLTEyZGViOTA5ZTk3YyIsImlzcyI6Imh0dHBzOi8vYWNjb3VudHMuc3RvY2t4LmNvbS8iLCJzdWIiOiJhdXRoMHw5N2ZlYTliZi04MjRmLTExZTktODg4MC0xMmRlYjkwOWU5N2MiLCJhdWQiOiJnYXRld2F5LnN0b2NreC5jb20iLCJpYXQiOjE1OTcxMzcyMzEsImV4cCI6MTU5NzE4MDQzMSwiYXpwIjoiT1Z4cnQ0VkpxVHg3TElVS2Q2NjFXMER1Vk1wY0ZCeUQiLCJzY29wZSI6Im9mZmxpbmVfYWNjZXNzIn0.MacnSXajE-yx_GZ_2QyFUGM1AlOkgagONIGegNX6kBn-rkz0ZQyPzT4rWX3iJlZcfqfn7EOBtMMZbYYcvW7ATRcaxVeQRdk-jt6ynDMq53R9mFQqU7g4pWuQXCinRyeyQJ_mbudqzZHaOYGIwWDyWWiFMQ-FUuGvHAkJq_kbwe-K7DhKp3OJxEyVr0g3AVYpS4BHuhJnFscbTi8VnMsT6Jk17cF16jVAofC5uNlIQvNVvc1pI_5SOSCgaL8ePmEzeqI9CAP2EnkrbNC4uw-Kti6tkdc3E99Ixuam4RlsF8hfMpqN602yByzOsWdVfus0fO47dNZ3rW2IJAjd820jrQ",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-requested-with": "XMLHttpRequest"
+  },
+  "referrer": "https://stockx.com/air-jordan-1-retro-high-satin-snake-chicago-w",
+  "referrerPolicy": "same-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+});
+
+
+chart
+#highcharts-kwkht8e-428 > svg > g.highcharts-series-group > g.highcharts-series.highcharts-series-0.highcharts-area-series > path.highcharts-area
+
+# sales
+#root > div.wrapper.Appstyles__AppContainer-sc-1lpzmpo-0.cIfAGK > div.page-container.Appstyles__BannerPadding-sc-1lpzmpo-1.iabkys > div.product-view > div.product-market-history-wrap > div > div > div > div.col-md-4.gauges-wrapper > div.gauges > div:nth-child(1) > div.gauge-value
+
+Price premium
+#root > div.wrapper.Appstyles__AppContainer-sc-1lpzmpo-0.cIfAGK > div.page-container.Appstyles__BannerPadding-sc-1lpzmpo-1.iabkys > div.product-view > div.product-market-history-wrap > div > div > div > div.col-md-4.gauges-wrapper > div.gauges > div:nth-child(2) > div.gauge-value
+
+Avg. sale price
+#root > div.wrapper.Appstyles__AppContainer-sc-1lpzmpo-0.cIfAGK > div.page-container.Appstyles__BannerPadding-sc-1lpzmpo-1.iabkys > div.product-view > div.product-market-history-wrap > div > div > div > div.col-md-4.gauges-wrapper > div.gauges > div:nth-child(3) > div.gauge-value
