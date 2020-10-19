@@ -1,4 +1,7 @@
-/logs.*
-/logs/*
-/misc.*
-/misc/*
+.env
+
+logs.*
+logs/*
+
+misc.*
+misc/*
