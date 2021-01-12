@@ -1,0 +1,11 @@
+To Do:
+[ ] See if chart data is accessible using scrapy-splash 
+[ ] Try scrapy-selenium
+[ ] Parse chart data
+[ ] Compare number of data points to number of sales
+[ ] When does data start? release date?
+[ ] Put extraction in spider
+[ ] Automate running of spider
+[ ] Cache?
+[ ] Add proxies & VPN
+
