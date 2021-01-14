@@ -1,1 +1,23 @@
+# Converting highcharts svg to data
 https://stackoverflow.com/questions/43727621/converting-svg-from-highcharts-data-into-data-points/43832325#43832325
+
+# Scrapy tutorial
+https://towardsdatascience.com/a-minimalist-end-to-end-scrapy-tutorial-part-i-11e350bcdec0
+
+# Get started with scrapy-splash
+https://github.com/scrapy-plugins/scrapy-splash
+
+# Parsing svg coords
+https://stackoverflow.com/questions/52508452/convert-d3-svg-coordinates-to-canvas-coordinates-or-try-to-match-the-same-positi
+
+# Get actual data using hover tooltip
+https://stackoverflow.com/questions/48180075/scraping-hover-over-figure-using-python-and-selenium
+
+# More hover tooltip help
+https://stackoverflow.com/questions/60895017/highcharts-scraper
+
+- Find the y-axis label on the chart
+- Use move_to_element & horizontal move_by_offset to hover over the chart and generate the tooltip
+- I just took some guesses and found that jumping with offset 7 generates all the tooltips in one go without doubles or missing any. 
+- The website also refreshes the chart so I catch exceptions for that to reset everything and continue again. 
+- Then after 107 datapoints, hit previous page and restart!
