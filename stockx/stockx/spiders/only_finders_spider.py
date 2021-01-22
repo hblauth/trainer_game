@@ -37,12 +37,17 @@ chrome_options.add_experimental_option('useAutomationExtension', False)
 
 driver = webdriver.Chrome('/Users/henry/code/PATH/chromedriver', options=chrome_options)
 driver.implicitly_wait(30)
-# 3
+# Can't do this any more .: switch to firefox
 # driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
 driver.get('https://onlyfinder.com/profiles?q=location:%22United%20Kingdom%22%20anal')
 
 driver.quit()
+
+# Bypassing selenium detection
+# Try pausing JavaScript before navigate to site, wait, re-enable
+# What are CSRF tokens?
+# https://stackoverflow.com/questions/33225947/can-a-website-detect-when-you-are-using-selenium-with-chromedriver
 
 # 1: fail
 # 2: fail
@@ -85,54 +90,28 @@ for result in results:
 
   output.append(info)
 
+# ------------------------------------------------------------------------------------------------------------------------------------------------
+# Try with firefox
+from selenium.webdriver.firefox.options import Options
 
-<div class="result">
-<div class="img-avatar align-top m-3" data-img="avatar.jpg" data-username="" style="background:url('https://public.onlyfans.com/files/thumbs/w480/r/rv/rvu/rvuamdcmew3yftynduagesmmqfd2tg231609542997/avatar.jpg'),url('/static/noprofile.jpg');">
-<a class="divLink" data-img="avatar.jpg" data-pos="2" data-username="" href="https://onlyfans.com/" rel="nofollow" target="_blank"></a>
-</div>
-<div class="result-container col-sm-7">
-<a data-pos="2" data-username="" href="https://onlyfans.com/" rel="nofollow" target="_blank">
-                            onlyfans.com &gt; <br/>
-<h3>Anal Annabelle</h3>
-</a>
-<div class="pb-3 text-muted about">😈 YOUR DIRTY ANAL SLUT 😈https://linktr.ee/XanalannabellexHey Everyone!I’m so glad to have you here ❤️I’m here for your kinky fantasies so don’t be scared to come play with me 😈My DMs are always open for CUSTOM REQ ...</div>
-<div>
-<span class="mr-3 profile-info"><i class="fas fa-heart"></i> <strong>2,085</strong></span>
-<span class="mr-3 profile-info"><i class="fas fa-camera"></i> 175</span>
-<span class="mr-3 profile-info"><i class="fas fa-video"></i> 11</span>
-<span class="profile-info">Price: <strong>$5.00</strong></span>
-</div>
-</div></div>
+options = Options()
 
-
-
-
-
-
-
+driver = webdriver.Firefox(options=options ,executable_path='./geckodriver')
 
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options
 from bs4 import BeautifulSoup
 
 # Your options may be different
-options = Options()
 options.set_preference('permissions.default.image', 2)
 options.set_preference('dom.ipc.plugins.enabled.libflashplayer.so', False)
 
 
 def all_links(url):
     # Setup the driver. This one uses firefox with some options and a path to the geckodriver
-    driver = webdriver.Firefox(options=options ,executable_path='./geckodriver')
     # implicitly_wait tells the driver to wait before throwing an exception
     driver.implicitly_wait(30)
     # driver.get(url) opens the page
