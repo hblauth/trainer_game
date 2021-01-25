@@ -21,3 +21,7 @@ https://stackoverflow.com/questions/60895017/highcharts-scraper
 - I just took some guesses and found that jumping with offset 7 generates all the tooltips in one go without doubles or missing any. 
 - The website also refreshes the chart so I catch exceptions for that to reset everything and continue again. 
 - Then after 107 datapoints, hit previous page and restart!
+
+Getting profile links i.e. avoiding bot detection:
+https://stackoverflow.com/questions/33225947/can-a-website-detect-when-you-are-using-selenium-with-chromedriver
+https://piprogramming.org/articles/How-to-make-Selenium-undetectable-and-stealth--7-Ways-to-hide-your-Bot-Automation-from-Detection-0000000017.html
