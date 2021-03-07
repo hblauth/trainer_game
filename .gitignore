@@ -5,3 +5,6 @@ logs/*
 
 misc.*
 misc/*
+
+data./*
+data/*
