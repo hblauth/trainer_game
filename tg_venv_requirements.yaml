@@ -42,6 +42,7 @@ dependencies:
   - ipywidgets=7.5.1=py_0
   - jedi=0.17.0=py38h32f6830_0
   - jinja2=2.11.2=pyh9f0ad1d_0
+  - joblib=1.0.1=pyhd8ed1ab_0
   - jpeg=9d=h0b31af3_0
   - jsonschema=3.2.0=py38h32f6830_1
   - jupyter=1.0.0=py_2
@@ -79,7 +80,7 @@ dependencies:
   - nspr=4.20=h0a44026_1000
   - nss=3.47=hc0980d9_0
   - numpy=1.18.5=py38h1f821a2_0
-  - openssl=1.1.1i=h35c211d_0
+  - openssl=1.1.1j=hbcf498f_0
   - packaging=20.4=pyh9f0ad1d_0
   - pandas=1.0.4=py38h5fc983b_0
   - pandoc=2.10.1=haf1e3a3_0
@@ -118,6 +119,7 @@ dependencies:
   - queuelib=1.5.0=pyh9f0ad1d_0
   - readline=8.0=hcfe32e1_0
   - requests=2.23.0=pyh8c360ce_2
+  - scikit-learn=0.22.1=py38h3dc85bc_1
   - scipy=1.4.1=py38h38b60c6_3
   - scrapy=2.1.0=py38h32f6830_0
   - seaborn=0.11.0=0
@@ -148,11 +150,11 @@ dependencies:
   - zlib=1.2.11=h0b31af3_1006
   - zope.interface=5.1.0=py38h64e0658_0
   - pip:
-    - calmjs-parse==1.2.5
-    - js2xml==0.4.0
-    - ply==3.11
-    - pyqt5-sip==4.19.18
-    - pyqtchart==5.12
-    - pyqtwebengine==5.12.1
-    - scrapy-splash==0.7.2
+      - calmjs-parse==1.2.5
+      - js2xml==0.4.0
+      - ply==3.11
+      - pyqt5-sip==4.19.18
+      - pyqtchart==5.12
+      - pyqtwebengine==5.12.1
+      - scrapy-splash==0.7.2
 prefix: /Users/henry/anaconda3/envs/tg_venv
